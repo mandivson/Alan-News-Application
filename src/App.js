@@ -16,7 +16,7 @@ const App = () => {
 
   useEffect(() => {
     alanBtn({
-      key: '7cdfeb6ffabfff951908a9abd069fe452e956eca572e1d8b807a3e2338fdd0dc/stage',
+      key: 'use_your_own_key',
       onCommand: ({ command, articles, number }) => {
         console.log(command);
         console.log(articles);
